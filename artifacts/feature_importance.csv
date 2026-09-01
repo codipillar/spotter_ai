@@ -1,0 +1,16 @@
+feature,importance
+quote_signal,906
+delivery,871
+pickup,800
+weight_per_mile,511
+market_x_quote,378
+weight,348
+quote_x_distance,339
+dayofyear,292
+market_index,282
+doy_cos,273
+distance_gap,217
+route_key,215
+equipment_code,178
+market_x_distance,168
+distance,167

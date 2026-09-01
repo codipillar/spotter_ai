@@ -1,0 +1,85 @@
+{
+  "split": {
+    "train_rows": 43147,
+    "valid_rows": 4853,
+    "train_end": "2025-09-30",
+    "valid_start": "2025-10-01",
+    "valid_end": "2025-10-31"
+  },
+  "model": "LightGBMRegressor predicting log1p(rate_per_mile)",
+  "holdout_metrics": {
+    "mae": 129.82505268963968,
+    "rmse": 653.146365510124,
+    "mape_pct": 5.840196236321135,
+    "r2": 0.8174179745455022
+  },
+  "distance_rpm_baseline_metrics": {
+    "mae": 253.84794914953068,
+    "rmse": 695.0468801668737,
+    "mape_pct": 11.811969846073948,
+    "r2": 0.7932406357697894
+  },
+  "best_iteration": 77,
+  "feature_importance_top": [
+    [
+      "quote_signal",
+      906
+    ],
+    [
+      "delivery",
+      871
+    ],
+    [
+      "pickup",
+      800
+    ],
+    [
+      "weight_per_mile",
+      511
+    ],
+    [
+      "market_x_quote",
+      378
+    ],
+    [
+      "weight",
+      348
+    ],
+    [
+      "quote_x_distance",
+      339
+    ],
+    [
+      "dayofyear",
+      292
+    ],
+    [
+      "market_index",
+      282
+    ],
+    [
+      "doy_cos",
+      273
+    ],
+    [
+      "distance_gap",
+      217
+    ],
+    [
+      "route_key",
+      215
+    ],
+    [
+      "equipment_code",
+      178
+    ],
+    [
+      "market_x_distance",
+      168
+    ],
+    [
+      "distance",
+      167
+    ]
+  ]
+}
